@@ -21,6 +21,8 @@ Será necessário instalar a biblioteca abaixo:
 ![3](https://user-images.githubusercontent.com/40063504/84572903-9328f280-ad73-11ea-9e8b-428658f6f55f.PNG)
 
 
+
+
 ## Covid-19_Data_Monitor
 The application was developed to monitor the cases, active, confirmed, recovered and killed of the new global disease Covid-19 in all countries.
   
