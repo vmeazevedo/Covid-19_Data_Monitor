@@ -1,7 +1,7 @@
 from covid import Covid
 
 covid = Covid()
-country_name = input('\nWrite the country name to search in the database: ')
+country_name = input('\nEnter the country name: ')
 country = covid.get_status_by_country_name(country_name)
 data = {
     key:country[key]
@@ -11,7 +11,7 @@ data = {
                                    'recovered'}
 }
 
-print('\nThe information requested from ' + country_name + ' is below: ')
+print('\nPresenting the requested information from: ' + country_name + '.')
 print(data)
 print()
 
@@ -21,5 +21,5 @@ def covid_worldwide():
     print('Total deaths:', covid.get_total_deaths())
     print('Total recovered cases:', covid.get_total_recovered())
 
-print('The global information is below: ')
+print('Presenting the global information: ')
 covid_worldwide()
