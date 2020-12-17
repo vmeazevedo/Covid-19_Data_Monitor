@@ -23,3 +23,15 @@ def covid_worldwide():
 
 print('Presenting the global information: ')
 covid_worldwide()
+
+# Adding a loop
+flag = True
+while flag == True:
+    response = input(str('\nWould you like to make another search? [Y/N]?')).lower()
+    if response == "y":
+        covid_worldwide()
+    else:
+        break
+
+print("\nBe safe.")
+        
